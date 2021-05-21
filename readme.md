@@ -1,5 +1,8 @@
 After installing minikube and kubectl
 
+Start your minkube with command
+1. minikube start
+
 run the following commands in order
 
 1. kubectl apply -f mongo-sercret.yaml
@@ -13,4 +16,5 @@ Now check if deployments are up and running with
 After all deployments are successfully up run
 1. minikube service mongo-express-service
 
-Your browser should open and you will see a UI for basic CRUD operations in mongodb
+This will attach a public IP to your external service and 
+your browser should open and you will see a UI for basic CRUD operations in mongodb
